@@ -9,6 +9,7 @@ import {Link} from "react-router-dom";
 // the useEffect basically runs the fetch call when our component mounts
 
 function Shop() {
+
 	useEffect(() => {
 		fetchItem();
 	}, []); // "[]" means this is only gonna run when the component mounts
